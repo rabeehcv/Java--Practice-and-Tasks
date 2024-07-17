@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0616f7f2-1a1e-4312-bf01-eb5588d15186)### Class and Object
+### Class and Object
 
 In Java, a class is a template that defines the structure and behavior (data and methods) of objects. A class encapsulates data for the object and methods to manipulate that data. A class is defined only once and serves as a reference for creating multiple objects.
 
@@ -119,6 +119,9 @@ Abstraction is achieved through:
 ### Polymorphism
 - It makes it possible to carry out a single activity in a variety of ways.
 - Method overloading and method overriding are frequently used to achieve polymorphism.
+- Method overriding is used to provide specific implementation of method that is already provided by its superclass. It is an example of runtime polymorphism. It occurs in two classes that have inheirtance relationship. In method overriding, parameter must be same.
+- Method overloading is performed withim the class. It is an example of compile time polymorphism. In method overloading, parameter must be different.
+  
 
 
 
