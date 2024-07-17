@@ -122,6 +122,11 @@ Abstraction is achieved through:
 - Method overriding is used to provide specific implementation of method that is already provided by its superclass. It is an example of runtime polymorphism. It occurs in two classes that have inheirtance relationship. In method overriding, parameter must be same.
 - Method overloading is performed withim the class. It is an example of compile time polymorphism. In method overloading, parameter must be different.
   
+#### Usage of Java super Keyword
+- Super can be used to refer immediate parent class instance variable.
+- Super can be used to invoke immediate parent class method.
+- Super() can be used to invoke immediate parent class constructor.
+
 
 
 
