@@ -102,8 +102,8 @@ this.color: This refers to the instance variable color of the object on which th
 
 Abstraction is achieved through:
 
-- Abstract classes: Define a blueprint for subclasses but cannot be instantiated.
-- Interfaces: Define a contract of methods that classes must implement. Interfaces define a contract of what a class should do, without specifying how it's done. This promotes abstraction by hiding implementation details.
+- Abstract classes: Define a blueprint for subclasses but cannot be instantiated. It can have abstract and non abstract methods.
+- Interfaces: Define a methods that classes must implement. Interfaces define what a class should do, without specifying how it's done. This promotes abstraction by hiding implementation details. Interface can have only abstract methods.
 - Data hiding: Encapsulating data within classes and providing controlled access.
 
 
