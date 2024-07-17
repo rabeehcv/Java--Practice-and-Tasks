@@ -1,4 +1,4 @@
-### Class and Object
+![image](https://github.com/user-attachments/assets/0616f7f2-1a1e-4312-bf01-eb5588d15186)### Class and Object
 
 In Java, a class is a template that defines the structure and behavior (data and methods) of objects. A class encapsulates data for the object and methods to manipulate that data. A class is defined only once and serves as a reference for creating multiple objects.
 
@@ -105,6 +105,24 @@ Abstraction is achieved through:
 - Abstract classes: Define a blueprint for subclasses but cannot be instantiated. It can have abstract and non abstract methods.
 - Interfaces: Define a methods that classes must implement. Interfaces define what a class should do, without specifying how it's done. This promotes abstraction by hiding implementation details. Interface can have only abstract methods.
 - Data hiding: Encapsulating data within classes and providing controlled access.
+
+### Inheritance
+
+- Creating new classes based on preexisting ones is what inheritance is all about.
+- The attributes (fields) and behaviors (methods) of one class may be inherited by another class.
+- A subclass or derived class derives from another class.
+- The superclass or base class is the one from which the subclass inherits.
+- The properties and methods of a superclass can be used by a subclass.
+- In Java, inheritance encourages the reuse of existing code and the development of hierarchies of related classes.
+- Subclass inherits attributes and behaviors from the superclass, and can add its own specific characteristics.
+
+### Polymorphism
+- It makes it possible to carry out a single activity in a variety of ways.
+- Method overloading and method overriding are frequently used to achieve polymorphism.
+
+
+
+
 
 
 
