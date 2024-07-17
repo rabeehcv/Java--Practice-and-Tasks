@@ -4,7 +4,7 @@ class Dog{
     int age;
 
     void bark(){
-        System.out.println(age + "years old"+ name + " is barking and ths dog is a " + breed + "breed");
+        System.out.println(age + " years old "+ name + " is barking and the breed of this dog is " + breed);
     }
 }
 public class practice {
