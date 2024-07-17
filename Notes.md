@@ -85,3 +85,28 @@ this.color = color;
 color: This is the parameter passed to the constructor or method.
 
 this.color: This refers to the instance variable color of the object on which the constructor or method is being invoked. The this keyword refers to the current object in a method or constructor.​
+
+### Encapsulation: Protecting Your Data
+- In object-oriented programming (OOP), encapsulation groups data and methods into a class while hiding implementation-specifics and exposing a public interface. It's like creating a protective shield around your data, allowing controlled access to it.
+- Encapsulation hides the internal representation of an object from the outside world, preventing direct access to its data members.
+- Encapsulation in Java includes limiting direct access by defining instance variables as private.
+- There are defined public getters and setters for these variables. Getters retrieve data, while setters modify data.
+- Data validation as well as consistent internal state management within the class are made possible by the use of getters, which obtain variable values, and setters, which make changes.
+- Prevents accidental or malicious modifications to data.
+- By using encapsulation, you create well-structured and maintainable code that protects your data and enhances code organization.
+
+### Abstraction: Focusing on the Essential
+- Abstraction is the process of simplifying complex systems by modeling classes based on their essential properties and behaviors, while hiding unnecessary details. It's like looking at a car: you know how to drive it, but you don't need to understand the intricacies of the engine to operate it.
+- Abstraction in Java is achieved through interfaces and abstract classes.
+- Data abstraction involves identifying only the essential characteristics of an object while ignoring irrelevant details.
+
+Abstraction is achieved through:
+
+- Abstract classes: Define a blueprint for subclasses but cannot be instantiated.
+- Interfaces: Define a contract of methods that classes must implement. Interfaces define a contract of what a class should do, without specifying how it's done. This promotes abstraction by hiding implementation details.
+- Data hiding: Encapsulating data within classes and providing controlled access.
+
+
+
+
+
