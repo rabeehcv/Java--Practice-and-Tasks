@@ -127,7 +127,23 @@ Abstraction is achieved through:
 - Super can be used to invoke immediate parent class method.
 - Super() can be used to invoke immediate parent class constructor.
 
+### Java Libraries
+#### String Class
+Represents a sequence of characters and provides a range of methods for manipulating these characters. Strings are immutable and an operation to alter the values of a string will create a new string.
 
+#### Wrapper Class
+To use primitive datatypes like int, boolean, etc as objects. Each of the datatypes has its own wrapper classes like Integer, Boolean, etc. It offers a range of utility methods for converting between types.
+
+#### Arrays
+Used to store a fixed number of elements of same datatype.
+
+### Java Collections Framework
+Provides a set of classes and interfaces for storing and manipulating a group of data as a single unit. These single unit can be then used to perform different tasks like insertion, deletion, manipulation, searching, sorting, etc.
+
+Main interfaces available in a collections framework:
+1. List
+2. Set
+3. Map
 
 
 
