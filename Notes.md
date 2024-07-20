@@ -145,10 +145,20 @@ Main interfaces available in a collections framework:
 2. Set
 3. Map
 
+### List Interface
+It allows duplicate elements to be stored. 
+1. ArrayList: Allows random access of elements since it has index based structure.
+2. LinkedlIst: Better for insertion of elements. Each element is associated with previous and next nodes.
 
+### Set Interface
+Doesn't allows duplicate elements to be stored in the collection.
+1. HashSet: Does not guarantee the order of elements.
+2. TreeSet: Elements are in sorted order.
 
-
-
+### Map Interface
+Maps key to values. It doesn't allows duplicate elements. A key can have one value.
+1. HashMap: Allows null values and the null key. Does not guarantee order.
+2. TreeMap: Keys are in sorted order.
 
 
 
