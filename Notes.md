@@ -129,7 +129,9 @@ Abstraction is achieved through:
 
 ### Java Libraries
 #### String Class
-Represents a sequence of characters and provides a range of methods for manipulating these characters. Strings are immutable and an operation to alter the values of a string will create a new string.
+Represents a sequence of characters and provides a range of methods for manipulating these characters. Strings are immutable and an operation to alter the values of a string will create a new string. But, StringBuilder and StringBuffer are both classes in Java used to create and manipulate mutable sequences of characters. 
+
+Both StringBuilder and StringBuffer can be modified after creation, unlike the immutable String class. StringBuilder is recommended for single-threaded environments (It is not thread-safe). StringBuffer is thread-safe. Its methods are synchronized, meaning only one thread can access and modify the StringBuffer object at a time.
 
 String:
 - Class: String is a class defined in the java.lang package.
