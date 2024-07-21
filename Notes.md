@@ -131,6 +131,13 @@ Abstraction is achieved through:
 #### String Class
 Represents a sequence of characters and provides a range of methods for manipulating these characters. Strings are immutable and an operation to alter the values of a string will create a new string.
 
+String:
+- Class: String is a class defined in the java.lang package.
+- Object: When you declare a string variable like String name = "Alice";, you're creating an instance (object) of the String class. This object holds the actual characters ("Alice") and provides functionalities through methods.
+- Stored as Reference: The variable name doesn't store the characters directly. Instead, it holds a reference to the String object in memory.
+
+##### Note: 
+int, boolean, and char in Java are not classes like String. They are  primitive data types. Values of primitive data types are stored directly in memory locations allocated for them. They don't have any associated methods like objects do.
 #### Wrapper Class
 To use primitive datatypes like int, boolean, etc as objects. Each of the datatypes has its own wrapper classes like Integer, Boolean, etc. It offers a range of utility methods for converting between types.
 
