@@ -1,0 +1,14 @@
+ID: 1234
+Name: John Philip
+Department: IT
+Salary: 85000.00
+
+ID: 5678
+Name: David Smith
+Department: Marketing
+Salary: 72000.50
+
+ID: 9012
+Name: Michael Dwayne
+Department: Sales
+Salary: 98500.75
