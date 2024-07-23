@@ -127,12 +127,47 @@ Abstraction is achieved through:
 - Super can be used to invoke immediate parent class method.
 - Super() can be used to invoke immediate parent class constructor.
 
+### Java Libraries
+#### String Class
+Represents a sequence of characters and provides a range of methods for manipulating these characters. Strings are immutable and an operation to alter the values of a string will create a new string. But, StringBuilder and StringBuffer are both classes in Java used to create and manipulate mutable sequences of characters. 
 
+Both StringBuilder and StringBuffer can be modified after creation, unlike the immutable String class. StringBuilder is recommended for single-threaded environments (It is not thread-safe). StringBuffer is thread-safe. Its methods are synchronized, meaning only one thread can access and modify the StringBuffer object at a time.
 
+String:
+- Class: String is a class defined in the java.lang package.
+- Object: When you declare a string variable like String name = "Alice";, you're creating an instance (object) of the String class. This object holds the actual characters ("Alice") and provides functionalities through methods.
+- Stored as Reference: The variable name doesn't store the characters directly. Instead, it holds a reference to the String object in memory.
 
+##### Note: 
+int, boolean, and char in Java are not classes like String. They are  primitive data types. Values of primitive data types are stored directly in memory locations allocated for them. They don't have any associated methods like objects do.
+#### Wrapper Class
+To use primitive datatypes like int, boolean, etc as objects. Each of the datatypes has its own wrapper classes like Integer, Boolean, etc. It offers a range of utility methods for converting between types.
 
+#### Arrays
+Used to store a fixed number of elements of same datatype.
 
+### Java Collections Framework
+Provides a set of classes and interfaces for storing and manipulating a group of data as a single unit. These single unit can be then used to perform different tasks like insertion, deletion, manipulation, searching, sorting, etc.
 
+Main interfaces available in a collections framework:
+1. List
+2. Set
+3. Map
+
+### List Interface
+It allows duplicate elements to be stored. 
+1. ArrayList: Allows random access of elements since it has index based structure.
+2. LinkedlIst: Better for insertion of elements. Each element is associated with previous and next nodes.
+
+### Set Interface
+Doesn't allows duplicate elements to be stored in the collection.
+1. HashSet: Does not guarantee the order of elements.
+2. TreeSet: Elements are in sorted order.
+
+### Map Interface
+Maps key to values. It doesn't allows duplicate elements. A key can have one value.
+1. HashMap: Allows null values and the null key. Does not guarantee order.
+2. TreeMap: Keys are in sorted order.
 
 
 
