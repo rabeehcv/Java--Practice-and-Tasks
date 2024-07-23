@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/773438ee-68b4-4532-9373-a246b1b3c0cc)### Class and Object
+### Class and Object
 
 In Java, a class is a template that defines the structure and behavior (data and methods) of objects. A class encapsulates data for the object and methods to manipulate that data. A class is defined only once and serves as a reference for creating multiple objects.
 
