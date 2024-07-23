@@ -1,4 +1,4 @@
-### Class and Object
+![image](https://github.com/user-attachments/assets/773438ee-68b4-4532-9373-a246b1b3c0cc)### Class and Object
 
 In Java, a class is a template that defines the structure and behavior (data and methods) of objects. A class encapsulates data for the object and methods to manipulate that data. A class is defined only once and serves as a reference for creating multiple objects.
 
@@ -168,6 +168,40 @@ Doesn't allows duplicate elements to be stored in the collection.
 Maps key to values. It doesn't allows duplicate elements. A key can have one value.
 1. HashMap: Allows null values and the null key. Does not guarantee order.
 2. TreeMap: Keys are in sorted order.
+
+### Exception Handling
+To handle runtime errors, ensuring the normal flow of the application. 
+1. Checked Exception: checked at compile-time. Handle the exception using a try-catch block or declare it using the throws keyword.
+2. Unchecked Exception: not checked at compile-time. 
+
+#### try,catch,finally,throw,throws
+try block: Code that might throw an exception is placed here.
+
+catch block: Code that handles the exception is placed here.
+
+finally block: Code that is always executed, whether an exception is thrown or not.
+
+throw statement: Used to explicitly throw an exception.
+
+throws keyword: Indicates that a method might throw one or more exceptions.
+
+#### Custom Exception
+User-defined exceptions that extend the Exception class. They provide a way to define specific error conditions that can occur in an application.
+
+### File Handling
+Involves reading from and writing to files. Two main packages for file handling: java.io and java.nio.
+#### java.io
+Commonly used classes for file handling:
+- File: An abstract representation of file and directory pathnames.
+- FileReader: Used for reading character files.
+- FileWriter: Used for writing to character files.
+- BufferedReader: Reads text from an input stream, buffering characters for efficient reading.
+- BufferedWriter: Writes text to an output stream, buffering characters for efficient writing.
+#### java.nio
+Modern and efficient way to handle I/O operations. Key classes include:
+- Path: Represents a path in the file system.
+- Files: Contains static methods for file and directory operations.
+
 
 
 
