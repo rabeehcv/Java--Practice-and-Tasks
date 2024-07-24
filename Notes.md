@@ -202,6 +202,14 @@ Modern and efficient way to handle I/O operations. Key classes include:
 - Path: Represents a path in the file system.
 - Files: Contains static methods for file and directory operations.
 
+### Thread
+- Smaller unit of a process.
+- In a single process, multiple threads can run concurrently, sharing the process's resources but executing independently.
+- Used to perform tasks concurrently within a single program.
+
+#### Creating a thread in Java:
+1. Extending the Thread class.
+2. Implementing the Runnable interface.
 
 
 
