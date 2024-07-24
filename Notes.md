@@ -20,6 +20,7 @@ A main method is essential for executable applications but not required for all 
 - The static keyword in Java is used for memory management primarily. It can be applied to variables, methods, blocks, and nested classes. Static members (variables or methods) belong to the class itself, not to individual objects. This means there's only one copy of the static member shared by all objects of that class, saving memory. Static final variables are often used to define constants that are shared across the entire program.
 
 - The new keyword is used to create instances of classes, or objects.
+- final: This keyword makes the variable a constant. Once assigned a value, it cannot be changed after that.
 
 How it works:
 
@@ -229,3 +230,5 @@ create thread objects using the Thread class constructor, passing a Runnable obj
 
 The start() method on the thread object is called to initiate the execution of the associated run() method.
 
+### JDBC (Java Database Connectivity )
+API that allows java applications to interact with Database.
