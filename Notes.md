@@ -169,5 +169,63 @@ Maps key to values. It doesn't allows duplicate elements. A key can have one val
 1. HashMap: Allows null values and the null key. Does not guarantee order.
 2. TreeMap: Keys are in sorted order.
 
+### Exception Handling
+To handle runtime errors, ensuring the normal flow of the application. 
+1. Checked Exception: checked at compile-time. Handle the exception using a try-catch block or declare it using the throws keyword.
+2. Unchecked Exception: not checked at compile-time. 
 
+#### try,catch,finally,throw,throws
+try block: Code that might throw an exception is placed here.
+
+catch block: Code that handles the exception is placed here.
+
+finally block: Code that is always executed, whether an exception is thrown or not.
+
+throw statement: Used to explicitly throw an exception.
+
+throws keyword: Indicates that a method might throw one or more exceptions.
+
+#### Custom Exception
+User-defined exceptions that extend the Exception class. They provide a way to define specific error conditions that can occur in an application.
+
+### File Handling
+Involves reading from and writing to files. Two main packages for file handling: java.io and java.nio.
+#### java.io
+Commonly used classes for file handling:
+- File: An abstract representation of file and directory pathnames.
+- FileReader: Used for reading character files.
+- FileWriter: Used for writing to character files.
+- BufferedReader: Reads text from an input stream, buffering characters for efficient reading.
+- BufferedWriter: Writes text to an output stream, buffering characters for efficient writing.
+#### java.nio
+Modern and efficient way to handle I/O operations. Key classes include:
+- Path: Represents a path in the file system.
+- Files: Contains static methods for file and directory operations.
+
+### Thread
+- Smaller unit of a process.
+- In a single process, multiple threads can run concurrently, sharing the process's resources but executing independently.
+- Used to perform tasks concurrently within a single program.
+
+#### Creating a thread in Java:
+1. Extending the Thread class.
+2. Implementing the Runnable interface.
+
+#### start() method:
+Initiates concurrent execution (running multiple tasks simultaneously) using threads. It internally creates a new thread of execution specifically for the object.
+The newly created thread gets allocated resources from the operating system. The start() method then invokes the run() method defined within the class (which extends Thread). The run() method contains the actual code to be executed by the thread.
+
+#### run() method
+The run() method is the heart of a thread's execution. It contains the code that the thread will run when it's started.
+
+#### sleep() method:
+By calling Thread.sleep(10), the currently executing thread pauses its execution for 10 milliseconds (0.01 seconds). The Thread.sleep(10) method can throw an InterruptedException exception. This exception occurs if another thread interrupts the sleeping thread before the specified sleep time is complete.
+
+#### While implementing Runnable interface
+
+The Runnable interface defines the run() method, which is the entry point for a thread's execution.
+
+create thread objects using the Thread class constructor, passing a Runnable object as an argument.
+
+The start() method on the thread object is called to initiate the execution of the associated run() method.
 
