@@ -211,5 +211,21 @@ Modern and efficient way to handle I/O operations. Key classes include:
 1. Extending the Thread class.
 2. Implementing the Runnable interface.
 
+#### start() method:
+Initiates concurrent execution (running multiple tasks simultaneously) using threads. It internally creates a new thread of execution specifically for the object.
+The newly created thread gets allocated resources from the operating system. The start() method then invokes the run() method defined within the class (which extends Thread). The run() method contains the actual code to be executed by the thread.
 
+#### run() method
+The run() method is the heart of a thread's execution. It contains the code that the thread will run when it's started.
+
+#### sleep() method:
+By calling Thread.sleep(10), the currently executing thread pauses its execution for 10 milliseconds (0.01 seconds). The Thread.sleep(10) method can throw an InterruptedException exception. This exception occurs if another thread interrupts the sleeping thread before the specified sleep time is complete.
+
+#### While implementing Runnable interface
+
+The Runnable interface defines the run() method, which is the entry point for a thread's execution.
+
+create thread objects using the Thread class constructor, passing a Runnable object as an argument.
+
+The start() method on the thread object is called to initiate the execution of the associated run() method.
 
