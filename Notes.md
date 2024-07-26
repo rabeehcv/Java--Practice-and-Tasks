@@ -216,6 +216,8 @@ Modern and efficient way to handle I/O operations. Key classes include:
 Initiates concurrent execution (running multiple tasks simultaneously) using threads. It internally creates a new thread of execution specifically for the object.
 The newly created thread gets allocated resources from the operating system. The start() method then invokes the run() method defined within the class (which extends Thread). The run() method contains the actual code to be executed by the thread.
 
+The order in which threads start executing is determined by the JVM's thread scheduler, which manages thread scheduling based on various factors like system load, thread priority, and available CPU resources.
+
 #### run() method
 The run() method is the heart of a thread's execution. It contains the code that the thread will run when it's started.
 
