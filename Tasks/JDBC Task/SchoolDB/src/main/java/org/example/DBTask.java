@@ -4,8 +4,8 @@ import java.sql.*;
 
 //to establish connection with database
 class DBConnection{
-    private static final String URL = "jdbc:postgresql://localhost:5432/school_db?currentSchema=people";
-    private static final String USER = "postgres";//provide correct username
+    private static final String URL = "jdbc:postgresql://x:y/d?currentSchema=z";//replace x with your host name, y with default port number, d with database name and z with schema name
+    private static final String USER = "";//provide correct username
     private static final String PASSWORD = "";//for the time being, the password is hidden for privacy. To run the code, we should provide the correct password for the database connection. 
     public static Connection getConnection() throws SQLException{
         return DriverManager.getConnection(URL, USER, PASSWORD);
