@@ -87,6 +87,12 @@ color: This is the parameter passed to the constructor or method.
 
 this.color: This refers to the instance variable color of the object on which the constructor or method is being invoked. The this keyword refers to the current object in a method or constructor.​
 
+### Access Modifiers
+- Default: declarations are visible only within the package (package private).
+- private: Accessible only within the declaring class.
+- public: can be accessed from any class, regardless of which package it belongs to.
+- protected: Accessible within the same package and by subclasses (regardless of package).
+
 ### Encapsulation: Protecting Your Data
 - In object-oriented programming (OOP), encapsulation groups data and methods into a class while hiding implementation-specifics and exposing a public interface. It's like creating a protective shield around your data, allowing controlled access to it.
 - Encapsulation hides the internal representation of an object from the outside world, preventing direct access to its data members.
